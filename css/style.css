@@ -1,12 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rubik+Vinyl&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d1117;
+  font-family: "Poppins", sans-serif;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
+#nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 150px;
+  gap: 40px;
+  width: 100%;
+  height: 150px;
 }
 
+#nav .logo {
+  font-size: 34px;
+  font-weight: 800;
+  cursor: pointer;
+}
+#nav .logo .dev {
+  color: orange;
+}
+
+#nav .logo .prog {
+  color: white;
+}
+
+#nav .logo .dot {
+  color: orange;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
