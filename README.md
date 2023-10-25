@@ -1,1 +1,1 @@
-# SCS---Project-1---Animated-Website-Project
+Project-1-Animated-Website-Project
